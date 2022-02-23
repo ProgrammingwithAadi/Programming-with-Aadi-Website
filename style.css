@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Indie+Flower&family=Maven+Pro:wght@500&family=Montserrat+Alternates&family=Mukta&family=Roboto+Slab:wght@400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    scroll-behavior: smooth;
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -51,7 +50,6 @@ section .title{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    /* font-family: 'Ubuntu', sans-serif; */
 }
 section .title::before{
     content: "";
@@ -80,7 +78,7 @@ section .title::after{
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Mukta', sans-serif;
     transition: all 0.3s ease;
 }
 .navbar.sticky{
@@ -168,7 +166,6 @@ section .title::after{
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
-    /* font-family: 'Ubuntu', sans-serif; */
 }
 .home .max-width{
   width: 100%;
@@ -217,17 +214,19 @@ section .title::after{
 .about .about-content .left{
     width: 45%;
 }
+
+
 .about .about-content .left img{
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 25px;
 }
 .about .about-content .right{
     width: 55%;
 }
 .about .about-content .right .text{
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 600;
     margin-bottom: 10px;
 }
@@ -236,6 +235,7 @@ section .title::after{
 }
 .about .about-content .right p{
     text-align: justify;
+    font-size: 18px;
 }
 .about .about-content .right a{
     display: inline-block;
@@ -255,9 +255,11 @@ section .title::after{
 }
 
 /* services section styling */
+
+
 .services, .teams{
     color:#fff;
-    background: #111;
+    background: #2f2e44;
 }
 .services .title::before,
 .teams .title::before{
@@ -265,7 +267,7 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
+    background: #2f2e44;
     content: "--What I provide--";
 }
 .services .serv-content .card{
@@ -302,6 +304,7 @@ section .title::after{
 
 /* skills section styling */
 
+
 .skills .title::after{
     content: "--What I know--";
 }
@@ -309,12 +312,13 @@ section .title::after{
     width: calc(50% - 30px);
 }
 .skills .skills-content .left .text{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 .skills .skills-content .left p{
     text-align: justify;
+    font-size: 18px;
 }
 .skills .skills-content .left a{
     display: inline-block;
@@ -442,8 +446,9 @@ section .title::after{
 }
 
 /* contact section styling */
+
 .contact .title::after{
-    content: "--Get in touch--";
+    content: "--Connect with us--";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
