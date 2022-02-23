@@ -363,19 +363,19 @@ section .title::after{
     width: 97%;
 }
 .skills-content .right .python::before{
-    width: 59%;
+    width: 89%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 70%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 87%;
 }
 .skills-content .right .php::before{
-    width: 50%;
+    width: 80%;
 }
 .skills-content .right .mysql::before{
-    width: 70%;
+    width: 100%;
 }
 
 /* teams section styling */
@@ -605,7 +605,7 @@ footer span a:hover{
         padding: 10px 30px;
     }
     .max-width{
-        max-width: 930px;
+        max-width: 1930px;
     }
     .about .about-content .column{
         width: 100%;
@@ -632,6 +632,7 @@ footer span a:hover{
 @media (max-width: 690px) {
     .max-width{
         padding: 0 23px;
+        max-width: 2000px;
     }
     .home .home-content .text-2{
         font-size: 60px;
