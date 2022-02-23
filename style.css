@@ -194,7 +194,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "--Get to know who I am--";
+    content: "--Get to know me--";
 }
 .about .about-content .left{
     width: 45%;
