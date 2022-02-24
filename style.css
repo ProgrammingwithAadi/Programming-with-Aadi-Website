@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,28 +7,31 @@
     scroll-behavior: smooth;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-section{
+section {
     padding: 100px 0;
 }
-.max-width{
+
+.max-width {
     max-width: 1900px;
     padding: 0 80px;
     margin: auto;
 }
+
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
-.contact .contact-content{
+.contact .contact-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
-section .title{
+
+section .title {
     position: relative;
     text-align: center;
     font-size: 40px;
@@ -36,7 +39,8 @@ section .title{
     margin-bottom: 60px;
     padding-bottom: 20px;
 }
-section .title::before{
+
+section .title::before {
     content: "";
     position: absolute;
     bottom: 0px;
@@ -46,7 +50,7 @@ section .title::before{
     background: #111;
     transform: translateX(-50%);
 }
-section .title::after{
+section .title::after {
     position: absolute;
     bottom: -8px;
     left: 50%;
@@ -57,25 +61,28 @@ section .title::after{
     transform: translateX(-50%);
 }
 
-/* navbar styling */
-.navbar{
+/* Navbar styling */
+.navbar {
     position: fixed;
     width: 100%;
     z-index: 999;
     padding: 30px 0;
     font-family: 'Mukta', sans-serif;
-    transition: all 0.3s ease;
+    transition: all .5s ease;
 }
-.navbar.sticky{
+
+.navbar.sticky {
     padding: 15px 0;
     background: crimson;
 }
-.navbar .max-width{
+
+.navbar .max-width {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.navbar .logo a{
+
+.navbar .logo a {
     color: #fff;
     font-size: 20px;
     font-weight: 600;
