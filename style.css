@@ -207,6 +207,9 @@ section .title::after {
     width: 45%;
 }
 
+.About-me {
+    text-align: justify;
+}
 
 .about .about-content .left img{
     height: 400px;
