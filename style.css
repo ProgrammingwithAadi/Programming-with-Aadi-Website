@@ -201,7 +201,7 @@ section .title::after {
 
 /* about section styling */
 .about .title::after{
-    content: "--Get to know me--";
+    content: "－Get to know me－";
 }
 .about .about-content .left{
     width: 45%;
@@ -212,10 +212,10 @@ section .title::after {
 }
 
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
+    height: 525px;
+    width: 525px;
     object-fit: cover;
-    border-radius: 25px;
+    border-radius: 50px;
 }
 .about .about-content .right{
     width: 55%;
@@ -263,7 +263,7 @@ section .title::after {
 .services .title::after,
 .teams .title::after{
     background: #2f2e44;
-    content: "--What I provide--";
+    content: "－What I provide－";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -301,7 +301,7 @@ section .title::after {
 
 
 .skills .title::after{
-    content: "--What I know--";
+    content: "－My Knowledge－";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -380,7 +380,7 @@ section .title::after {
 /* contact section styling */
 
 .contact .title::after{
-    content: "--Connect with us--";
+    content: "－Connect with us－";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
