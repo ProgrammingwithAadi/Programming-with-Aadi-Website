@@ -42,7 +42,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["YouTuber", "Developer", "Topper", "Designer"],
+        strings: ["YouTuber", "Developer", "Potterhead", "Designer"],
         typeSpeed: 50,
         backSpeed: 60,
         loop: true
@@ -85,6 +85,5 @@ function sendEmail(){
     "<br> Subject: " + document.getElementById("subject").value +
     "<br> Body: " + document.getElementById("message").value
 }).then(
-  message => alert("Message Sent Successfully!")
-);
-      }
+  message => alert("Message Sent Successfully!"),
+);}
