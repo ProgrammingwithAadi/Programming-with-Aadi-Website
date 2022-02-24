@@ -578,6 +578,8 @@ footer span a:hover{
     .home .home-content .text-2{
         font-size: 50px;
     }
+
+
     .home .home-content .text-3{
         font-size: 27px;
     }
@@ -603,4 +605,18 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+}
+
+.channel {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f2e44;
+}
+
+.coming-soon {
+    color: white;
+    font-size: 75px;
+    text-align: center;
 }
