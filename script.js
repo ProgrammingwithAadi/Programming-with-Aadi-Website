@@ -76,7 +76,7 @@ function sendEmail(){
     Email.send({
     Host : "smtp.gmail.com",
     Username : "programmingwithaadi.tech@gmail.com",
-    Password : "ngrxriicrguxdvwg",
+    Password : "ngrxriicrguxdvwg", // This is an app password and will not work if you try to sign in
     To : 'programmingwithaadi.tech@gmail.com',
     From : document.getElementById("email").value,
     Subject : document.getElementById("subject").value,
