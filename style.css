@@ -201,6 +201,7 @@ section .title::after {
 
 /* about section styling */
 .about .title::after{
+    width: 99vw;
     content: "－Get to know me－";
 }
 .about .about-content .left{
@@ -263,6 +264,7 @@ section .title::after {
 .services .title::after,
 .teams .title::after{
     background: #2f2e44;
+    width: 99vw;
     content: "－What I provide－";
 }
 .services .serv-content .card{
@@ -301,6 +303,7 @@ section .title::after {
 
 
 .skills .title::after{
+    width: 99vw;
     content: "－My Knowledge－";
 }
 .skills .skills-content .column{
@@ -390,6 +393,7 @@ section .title::after {
 .channel .title::after,
 .teams .title::after{
     background: #2f2e44;
+    width: 99vw;
     content: "－Courses Content－";
     width: 99vw;
 }
@@ -399,6 +403,7 @@ section .title::after {
 
 .contact .title::after{
     content: "－Connect with us－";
+    width: 99vw;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -424,7 +429,7 @@ section .title::after {
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: #dc143c;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
