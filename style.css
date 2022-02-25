@@ -234,8 +234,8 @@ section .title::after {
 }
 .about .about-content .right a{
     display: inline-block;
-    background: crimson;
-    color: #fff;
+    background: none;
+    color: crimson;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
@@ -245,8 +245,8 @@ section .title::after {
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: crimson;
-    background: none;
+    color: #fff;
+    background: crimson;
 }
 
 /* services section styling */
@@ -454,7 +454,7 @@ section .title::after {
   align-items: center;
 }
 .right form .button-area button{
-  color: #fff;
+  color: #f5f5f5;
   display: block;
   width: 160px!important;
   height: 45px;
