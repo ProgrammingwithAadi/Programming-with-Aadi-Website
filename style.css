@@ -377,6 +377,24 @@ section .title::after {
     width: 100%;
 }
 
+.channel {
+    color: #fff;
+    text-align: center;
+}
+
+.channel-link {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.channel .title::after,
+.teams .title::after{
+    background: #2f2e44;
+    content: "－Courses Content－";
+    width: 99vw;
+}
+
+
 /* contact section styling */
 
 .contact .title::after{
@@ -620,7 +638,6 @@ footer span a:hover{
 }
 
 .channel {
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
