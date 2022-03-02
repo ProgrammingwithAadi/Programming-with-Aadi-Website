@@ -10,3 +10,7 @@ A demo of this website will be available on www.aaditechpro.com
 ## Lessons Learned
 
 I build this project for my website
+
+## Installation
+
+To install the website you can click on the "Code" button and Download ZIP File
