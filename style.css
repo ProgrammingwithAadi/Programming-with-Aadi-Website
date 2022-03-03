@@ -209,8 +209,19 @@ section .title::after {
 }
 
 .About-me {
-    text-align: justify;
+	animation-name: floating;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	margin-top: 20px;
 }
+
+@keyframes floating {
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(0, 20px); }
+	100% { transform: translate(0, -0px); }
+}
+
 
 .about .about-content .left img{
     height: 425px;
@@ -232,6 +243,7 @@ section .title::after {
 .about .about-content .right p{
     text-align: justify;
     font-size: 18px;
+    line-height: 30px;
 }
 .about .about-content .right a{
     display: inline-block;
@@ -318,6 +330,22 @@ section .title::after {
     text-align: justify;
     font-size: 18px;
 }
+
+@keyframes slide-up {
+  from {
+    padding-top: 100px;
+    opacity: 0;
+  }
+  to {
+    padding-top: 0;
+    opacity: 1;
+  }
+}
+    
+.left p {
+  animation: slide-up 1s;
+}
+
 .skills .skills-content .left a{
     display: inline-block;
     background: crimson;
