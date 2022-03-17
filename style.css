@@ -109,7 +109,7 @@ section .title::after {
     color: crimson;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+  color: #fff;
 }
 
 /* menu btn styling */
@@ -119,6 +119,11 @@ section .title::after {
     cursor: pointer;
     display: none;
 }
+
+.menu-active {
+    transition: 21s;
+}
+
 .scroll-up-btn{
     position: fixed;
     height: 45px;
@@ -532,9 +537,6 @@ footer{
 footer span a{
     color: crimson;
     text-decoration: none;
-}
-footer span a:hover{
-    text-decoration: underline;
 }
 
 
