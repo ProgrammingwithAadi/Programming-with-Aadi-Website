@@ -247,8 +247,8 @@ section .title::after {
 }
 .about .about-content .right a{
     display: inline-block;
-    background: none;
-    color: crimson;
+    background: crimson;
+    color: white;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
@@ -258,8 +258,8 @@ section .title::after {
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #fff;
-    background: crimson;
+    color: crimson;
+    background: white;
 }
 
 /* services section styling */
