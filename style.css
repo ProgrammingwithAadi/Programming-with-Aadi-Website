@@ -99,7 +99,7 @@ section .title::after {
     font-size: 16px;
     font-weight: 500;
     margin-left: 25px;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
 }   
 
 .navbar .menu li a:hover{
@@ -120,7 +120,7 @@ section .title::after {
 }
 
 .menu-active {
-    transition: 21s;
+    transition: 10s;
 }
 
 .scroll-up-btn{
@@ -194,7 +194,7 @@ section .title::after {
     font-weight: 400;
     border-radius: 6px;
     border: 2px solid crimson;
-    transition: all 0.3s ease;
+    transition: all .3s ease;
 }
 .home .home-content a:hover{
     color: crimson;
@@ -252,7 +252,7 @@ section .title::after {
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
-    border-radius: 6px;
+    border-radius: 70px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
@@ -511,7 +511,7 @@ section .title::after {
   outline: none;
   font-size: 18px;
   font-weight: 500;
-  border-radius: 6px;
+  border-radius: 16px;
   cursor: pointer;
   flex-wrap: nowrap;
   background: crimson;
@@ -524,13 +524,14 @@ section .title::after {
 }
 /* footer section styling */
 footer{
-    background: #111;
+    background: crimson;
+    border: 1.5px solid black;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
 }
 footer span a{
-    color: crimson;
+    color: white;
     text-decoration: none;
 }
 
