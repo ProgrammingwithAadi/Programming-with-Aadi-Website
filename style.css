@@ -99,6 +99,7 @@ section .title::after {
     font-size: 16px;
     font-weight: 500;
     margin-left: 25px;
+    padding: 8px;
     transition: all 0.3s ease;
 }   
 
@@ -106,9 +107,10 @@ section .title::after {
     color: crimson;
 }
 .navbar.sticky .menu li a:hover{
-    font-weight: 100;
-    color: white;
+    background: #c41431;
     transition: all 0.3s;
+    border-radius: 10px;
+    color: white;
 }
 
 /* menu btn styling */
@@ -485,7 +487,7 @@ section .title::after {
 .contact .right form .textarea textarea{
     height: 100%;
     width: 100%;
-    border: 1px solid lightgrey;
+    border: 2.5px solid lightgrey;
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
@@ -494,7 +496,7 @@ section .title::after {
 }
 .contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus{
-    border-color: #b3b3b3;
+    border-color: #727272ee;
 }
 .contact .right form .textarea textarea{
   padding-top: 10px;
@@ -543,6 +545,19 @@ footer span a{
         height: 439px;
         width: 451px;
     }
+    .navbar.sticky .menu li a:hover{
+    background: #c41431;
+    transition: all 0.3s;
+    border-radius: 10px;
+    color: white;
+    }
+    .navbar .menu li a:hover{
+    background: #c41431;
+    transition: all 0.3s;
+    border-radius: 10px;
+    color: white;
+    }
+    
 }
 
 @media (max-width: 991px) {
@@ -570,6 +585,7 @@ footer span a{
         padding-top: 100px;
         transition: all 0.3s ease;
     }
+    
     .navbar .menu.active{
         left: 0;
     }
